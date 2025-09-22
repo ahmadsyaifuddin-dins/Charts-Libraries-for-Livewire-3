@@ -4,6 +4,16 @@ Dokumentasi ini menjelaskan opsi library chart yang bisa dipakai bersama **Livew
 
 ---
 
+## 📝 Tabel Perbandingan
+
+| Library / Package | Engine Chart | Integrasi Livewire | Reactive Support | Tingkat Ribet |
+|---|---|---|---|---|
+| **Livewire Charts (asantibanez)** | ApexCharts | Native Livewire Component | ✅ Full reactive (otomatis update) | ⭐⭐ |
+| **Larapex Charts** | ApexCharts | Laravel wrapper (Blade + Service) | ❌ Tidak otomatis reactive (perlu trik update) | ⭐ |
+| **ApexCharts.js langsung** | ApexCharts (JS murni) | Manual (`wire:ignore` + JS) | ✅ Bisa reactive (manual dispatch) | ⭐⭐⭐ |
+
+---
+
 ## 🔑 Opsi Library
 
 ### 1. **Livewire Charts (asantibanez/livewire-charts)**
